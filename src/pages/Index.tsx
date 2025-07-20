@@ -113,6 +113,145 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Court Representation Section */}
+      <section className="px-6 py-16 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#1F2937] mb-4">Представительство в судах</h2>
+            <p className="text-xl text-gray-600">Защищаем ваши интересы на всех уровнях судебной системы</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <img 
+                src="/img/d0fe2e93-595c-40b1-be39-dd7e8832f6ac.jpg" 
+                alt="Зал суда"
+                className="w-full h-80 object-cover rounded-lg shadow-xl"
+              />
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold text-[#1F2937] mb-6">
+                Профессиональная защита в судах всех инстанций
+              </h3>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Наша команда имеет богатый опыт ведения дел в судах различных уровней. 
+                Мы обеспечиваем качественное представительство интересов клиентов 
+                на всех этапах судебного процесса.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Подготовка процессуальных документов</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Участие в судебных заседаниях</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Обжалование судебных решений</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Building" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937]">Суды первой инстанции</CardTitle>
+                <CardDescription>
+                  Мировые судьи, районные и городские суды, арбитражные суды субъектов РФ
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="text-sm text-gray-600">
+                    • Гражданские дела
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Административные дела
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Арбитражные споры
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Уголовные дела
+                  </div>
+                </div>
+                <Button variant="outline" className="w-full mt-4 border-[#1F2937] text-[#1F2937] hover:bg-[#1F2937] hover:text-white">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Building2" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937]">Апелляционные суды</CardTitle>
+                <CardDescription>
+                  Апелляционные суды общей юрисдикции и арбитражные апелляционные суды
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="text-sm text-gray-600">
+                    • Обжалование решений
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Пересмотр дел
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Апелляционные жалобы
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Отзывы на жалобы
+                  </div>
+                </div>
+                <Button variant="outline" className="w-full mt-4 border-[#1F2937] text-[#1F2937] hover:bg-[#1F2937] hover:text-white">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Landmark" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937]">Высшие инстанции</CardTitle>
+                <CardDescription>
+                  Верховный Суд РФ, Конституционный Суд РФ, кассационные суды
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="text-sm text-gray-600">
+                    • Кассационные жалобы
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Надзорные жалобы
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Конституционные жалобы
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    • Экстраординарные процедуры
+                  </div>
+                </div>
+                <Button variant="outline" className="w-full mt-4 border-[#1F2937] text-[#1F2937] hover:bg-[#1F2937] hover:text-white">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Practice Section */}
       <section id="practice" className="px-6 py-16 bg-[#F9FAFB]">
         <div className="max-w-6xl mx-auto">
