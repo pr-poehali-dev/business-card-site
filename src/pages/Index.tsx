@@ -113,6 +113,140 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Legal Documents Section */}
+      <section className="px-6 py-16 bg-[#F9FAFB]">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-[#1F2937] mb-4">Подготовка правовых документов</h2>
+            <p className="text-xl text-gray-600">Профессиональное оформление документов любой сложности</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-[#1F2937] mb-6">
+                Качественная подготовка документов
+              </h3>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Наши специалисты обеспечивают грамотную подготовку и оформление правовых документов 
+                в соответствии с действующим законодательством. Гарантируем юридическую точность 
+                и соблюдение всех формальных требований.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Соответствие действующему законодательству</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Индивидуальный подход к каждому документу</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Быстрые сроки подготовки</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="CheckCircle" size={20} className="text-green-600" />
+                  <span className="text-gray-700">Сопровождение до полного исполнения</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img 
+                src="/img/f66442d8-69a7-44d9-8efd-5648c7e8d744.jpg" 
+                alt="Правовые документы"
+                className="w-full h-80 object-cover rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="bg-white border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="FileContract" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937] text-lg">Договоры</CardTitle>
+                <CardDescription className="text-sm">
+                  Купли-продажи, аренды, подряда, поставки, услуг
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-white border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Building" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937] text-lg">Корпоративные</CardTitle>
+                <CardDescription className="text-sm">
+                  Уставы, учредительные договоры, протоколы собраний
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-white border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="ScrollText" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937] text-lg">Процессуальные</CardTitle>
+                <CardDescription className="text-sm">
+                  Исковые заявления, отзывы, жалобы, ходатайства
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="bg-white border-gray-200 hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="w-12 h-12 bg-[#F9FAFB] rounded-lg flex items-center justify-center mb-4">
+                  <Icon name="Stamp" size={24} className="text-[#1F2937]" />
+                </div>
+                <CardTitle className="text-[#1F2937] text-lg">Доверенности</CardTitle>
+                <CardDescription className="text-sm">
+                  Генеральные, специальные, разовые доверенности
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+
+          <div className="mt-12 bg-white rounded-lg p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-[#1F2937] mb-6 text-center">
+              Этапы подготовки документов
+            </h3>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#1F2937] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                  1
+                </div>
+                <h4 className="font-semibold text-[#1F2937] mb-2">Консультация</h4>
+                <p className="text-sm text-gray-600">Анализ ситуации и определение необходимых документов</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#1F2937] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                  2
+                </div>
+                <h4 className="font-semibold text-[#1F2937] mb-2">Подготовка</h4>
+                <p className="text-sm text-gray-600">Составление проекта документа с учетом всех требований</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#1F2937] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                  3
+                </div>
+                <h4 className="font-semibold text-[#1F2937] mb-2">Согласование</h4>
+                <p className="text-sm text-gray-600">Обсуждение проекта с клиентом и внесение правок</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#1F2937] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                  4
+                </div>
+                <h4 className="font-semibold text-[#1F2937] mb-2">Оформление</h4>
+                <p className="text-sm text-gray-600">Финальное оформление и передача готового документа</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Court Representation Section */}
       <section className="px-6 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
